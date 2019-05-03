@@ -1,9 +1,9 @@
 require('dotenv').load({ silent: true });
 
 const {
-  PORT = '8082',
-  SPARQL_QUERY_ENDPOINT = 'http://localhost:8088/parliament/sparql',
-  SPARQL_UPDATE_ENDPOINT = 'http://localhost:8088/parliament/sparql',
+  PORT = '8182',
+  SPARQL_QUERY_ENDPOINT = 'http://localhost:8089/parliament/sparql',
+  SPARQL_UPDATE_ENDPOINT = 'http://localhost:8089/parliament/sparql',
 } = process.env;
 
 export {

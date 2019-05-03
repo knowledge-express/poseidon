@@ -4,8 +4,6 @@ defaults: &defaults
     - image: node:latest
       environment:
         NODE_ENV: test
-        SPARQL_QUERY_ENDPOINT: http://localhost:8089/parliament/sparql
-        SPARQL_UPDATE_ENDPOINT: http://localhost:8089/parliament/sparql
     - image: daxid/parliament-triplestore:latest
 
 version: 2
